@@ -7,15 +7,11 @@
 
 }
 .div1 {
-    right: 90%;
+    right: 84%;
     position: absolute;
     color: white;
     font-size: 18px;
     background-color: #FCDC0C;
-    padding-right: 5px;
-    padding-left: 75px;
-    padding-top: 18px;
-    padding-bottom: 18px;
     white-space: nowrap;
     overflow: hidden;
 }
@@ -30,7 +26,7 @@
 
 
 body {
-    background-image: url("https://cloudstorage.amari.com/watergate/hotel-photos/executive-suite-1.jpg");
+    background-image: url("../assets/background.jpeg");
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-size: cover;

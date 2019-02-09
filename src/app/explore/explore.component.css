@@ -1,3 +1,7 @@
+p {
+    text-align: center;
+}
+
 .div1 {
    
     background: white;
@@ -25,7 +29,7 @@
 }
 
 .header2text{
-    left: 43%;
+    left: 34%;
     top: 16%;
     position: absolute;
     width: 680px;
@@ -34,7 +38,7 @@
 }
 
 .sub1header2text{
-    left: 38%;
+    left: 20%;
     top: 25%;
     position: absolute;
     width: 680px;
@@ -42,7 +46,7 @@
 }
 
 .sub2header2text{
-    left: 45%;
+    left: 30%;
     top: 25%;
     position: absolute;
     width: 680px;
@@ -50,7 +54,7 @@
 }
 
 .sub3header2text{
-    left: 52%;
+    left: 40%;
     top: 25%;
     position: absolute;
     width: 680px;
@@ -58,7 +62,7 @@
 }
 
 .sub4header2text{
-    left: 59%;
+    left: 50%;
     top: 25%;
     position: absolute;
     width: 680px;
@@ -130,4 +134,28 @@
     width: 290px;
     
 
+}
+
+.roomservice{
+position: absolute;
+top:20%;
+left:36%;
+}
+
+.parking{
+    position: absolute;
+    top: 20%;
+    left: 46%;
+}
+
+.wifi{
+    position: absolute;
+    top: 20%;
+    left: 56%;
+}
+
+.furnished{
+    position: absolute;
+    top: 20%;
+    left: 66%;
 }

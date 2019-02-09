@@ -29,9 +29,9 @@ app.set('port', port);
 const server = http.createServer(app);
 // Connect to the database
 var db
-MongoClient.connect('mongodb://admin1:admin1@ds161894.mlab.com:61894/hotelfweb', { useNewUrlParser: true }, (err, database) => {
+MongoClient.connect('mongodb://admin1:admin1@ds127115.mlab.com:27115/swenproject', { useNewUrlParser: true }, (err, database) => {
  if (err) return console.log(err)
- db = database.db('hotelfweb');
+ db = database.db('swenproject');
  /**
  * Listen on provided port, on all network interfaces.
  */
