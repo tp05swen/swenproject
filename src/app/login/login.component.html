@@ -38,7 +38,9 @@
         <input type="text" style ="width: 350px; height: 35px;" > 
 </div>
 
-   <button class ="button1">CREATE AN ACCOUNT</button>
+<form [formGroup]="myForm" novalidate (ngSubmit)="onSubmit(myForm)">
+    <button type="submit" class="button1">CREATE AN ACCOUNT</button>
+      </form>
 
 
    
@@ -70,8 +72,9 @@
   <input type="text" style ="width: 350px; height: 35px;" > 
 </div>
 
-
-<button class="button2" >LOGIN</button>
+<form [formGroup]="myForm2" novalidate (ngSubmit)="onSubmit2(myForm)">
+    <button type="submit" class="button2">LOGIN</button>
+      </form>
 
 
 

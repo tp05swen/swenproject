@@ -10,15 +10,14 @@
           
             
                 
-                <form [formGroup]="bookingForm" novalidate (ngSubmit)="onSubmit(bookingForm)">
+                <form [formGroup]="bookingForm" novalidate (ngSubmit)="onSubmit(myForm)" >
                     <mat-form-field class="example-full-width">
                         <input formControlName="fromdate" id="fromdate" matInput [matDatepicker]="picker1" placeholder="" >
                         <mat-datepicker-toggle matSuffix [for]="picker1"></mat-datepicker-toggle>
                         <mat-datepicker #picker1></mat-datepicker>
                     </mat-form-field>
-            </form>
+            
                     <div class="div3">     
-                <form [formGroup]="bookingForm2" novalidate (ngSubmit)="onSubmit(bookingForm)">
                     <mat-form-field class="example-full-width2">
                         <input formControlName="enddate" id="enddate" matInput [matDatepicker]="picker2" placeholder="" >
                         <mat-datepicker-toggle matSuffix [for]="picker2"></mat-datepicker-toggle>
@@ -37,9 +36,8 @@
                             <input type="text" style ="width: 80px; height: 50px;"> 
                     </div>
 
-                    <button >Search</button>
-            </form>
-          </div>
-        </div>   
-    </div>
+                    <button type="submit">Search</button>  </div>
+            
+          
+
   

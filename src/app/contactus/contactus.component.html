@@ -48,13 +48,13 @@
                                 </div>
 
                                 <div class ="textarea">
-                                <textarea rows="5" cols="50" style="width: 76%" placeholder="Message">
-
-                                </textarea>
+                                <textarea rows="5" cols="50" style="width: 76%" placeholder="Message"></textarea>
                                   </div>
 
 
 
-                                  <button >Submit</button>
+                                  <form [formGroup]="bookingForm" novalidate (ngSubmit)="onSubmit(myForm)">
+                                    <button type="submit">Submit</button>
+                                      </form>
  
   </div>

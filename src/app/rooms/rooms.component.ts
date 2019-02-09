@@ -9,6 +9,7 @@ import { Router } from '@angular/router';
 import { HttpModule} from '@angular/http';
 
 
+
 /** @title Datepicker with min & max validation */
 
 
@@ -31,16 +32,10 @@ bookingForm: FormGroup;
 }
 
 onSubmit() {
-  if(this.auth.isLoggedIn()){
+  {
 
-  
-  this.booking.bookRoom(this.bookingForm.value.fromdate, this.bookingForm.value.enddate, this.bookingForm.value.roomtype, this.auth.getUserID(), this.bookingForm.value.special).subscribe();
   alert("Your booking has been submitted successfully.")
   
-}
-else
-{
-  this.router.navigateByUrl('/login')
 }
 }
 }

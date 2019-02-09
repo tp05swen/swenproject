@@ -41,7 +41,9 @@
         <input type="text" style ="width: 350px; height: 35px;" > 
 </div>
 
-   <button >Save Changes</button>
+<form [formGroup]="bookingForm" novalidate (ngSubmit)="onSubmit(myForm)">
+  <button type="submit"   >Save Changes</button>
+    </form>
 
 
 

@@ -31,16 +31,13 @@ bookingForm: FormGroup;
 }
 
 onSubmit() {
-  if(this.auth.isLoggedIn()){
+  {
+    alert("Your room has been found.")
+    this.router.navigateByUrl('/rooms')
+    
+  
+  
+}
 
-  
-  this.booking.bookRoom(this.bookingForm.value.fromdate, this.bookingForm.value.enddate, this.bookingForm.value.roomtype, this.auth.getUserID(), this.bookingForm.value.special).subscribe();
-  alert("Your booking has been submitted successfully.")
-  
-}
-else
-{
-  this.router.navigateByUrl('/login')
-}
 }
 }

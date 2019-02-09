@@ -27,7 +27,7 @@ import { RoomsComponent } from './rooms/rooms.component';
 import { ManageaccountComponent } from './manageaccount/manageaccount.component';
 import { ExploreComponent } from './explore/explore.component';
 import {HttpModule} from '@angular/http'
-
+import {ModalModule} from "ng2-modal";
 
 @NgModule({
   declarations: [
@@ -59,6 +59,7 @@ import {HttpModule} from '@angular/http'
     MatButtonModule,
     MatCardModule,
     HttpModule,
+    ModalModule,
 
 
 

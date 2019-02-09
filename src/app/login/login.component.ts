@@ -9,6 +9,7 @@ import { FormBuilder, FormGroup } from '@angular/forms';
 })
 export class LoginComponent implements OnInit {
  myForm: FormGroup;
+ myForm2: FormGroup;
  results: any = false;
 
  constructor(private fb: FormBuilder, private authService: AuthService,
@@ -21,30 +22,24 @@ this.myForm = this.fb.group ({
 name: '',
 password: ''
 });
-
+this.myForm2 = this.fb.group ({
+    name: '',
+    password: ''
+    });
  }
 
  onSubmit() {
 
-
-this.authService.authUser(this.myForm.value.name,
-this.myForm.value.password).subscribe(data => {
-    this.results = data;
-    if (this.results[0].auth) 
-    {
-        this.authService.setSecureToken(this.myForm.value.name);
-        this.authService.setUserRole(this.results[0].role);
-        this.authService.setUserID(this.results[0].userid);
-        this.authService.setUser(this.myForm.value.name);
-        this.router.navigateByUrl('/user');
-        window.location.reload();
+    alert("Account has been created.")
 
     
     }
-    else{
-        alert("Incorrect password or username.")
-    };
-    }
-)
- }
+
+    onSubmit2() {
+
+        alert("Login successful.")
+    
+        
+        }
+
 }
