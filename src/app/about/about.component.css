@@ -1,0 +1,18 @@
+.container {
+    background: rgba(0, 0, 0,0.7);
+    margin: auto;
+    padding: 15px;
+    
+}
+
+
+
+.container2  {
+    height: 500px;
+    z-index: 15;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    text-align: center;
+
+}

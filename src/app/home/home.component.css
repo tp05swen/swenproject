@@ -1,0 +1,108 @@
+
+
+.div1 {
+   
+background: rgba(0, 0, 0,0.8);
+   width:1000px;
+   height:350px;
+   top: 25%;
+    margin: auto;
+    margin-left: 50px;
+   position: absolute;
+   
+   
+}
+
+.div2 {
+    background:white;
+    position: absolute;
+    width: 215px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 100px;
+    left: 5%;
+    
+
+}
+.div3 {
+    background:white;
+    position: absolute;
+    width: 215px;
+    height: 50px;
+
+    bottom: 0;
+    left: 115%;
+    
+
+}
+.select1{
+    position: absolute;
+    left: 148%;
+    bottom: 0%; 
+}
+.select2{
+    position: absolute;
+    left: 198%;
+    bottom: 0%; 
+}
+.select3{
+    position: absolute;
+    left: 248%;
+    bottom: 0%; 
+}
+
+.checkintext{
+    position: absolute;
+    top: 22%;
+    left: 6.5%;
+    color: white;
+}
+.checkouttext{
+    position: absolute;
+    color: white;
+    top: 22%;
+    left: 31%;
+}
+.select1text{
+    position: absolute;
+    color: white;
+    top: 22%;
+    left: 62.5%;
+}
+.select2text{
+    position: absolute;
+    color: white;
+    top: 22%;
+    left: 73.4%;
+}
+.select3text{
+    position: absolute;
+    color: white;
+    top: 22%;
+    left: 84%;
+}
+.example-full-width{
+ 
+    padding-left: 5px;
+    
+    
+}
+.example-full-width2{
+
+    padding-left: 5px;
+    
+}
+button{
+
+border: none;
+background: yellow;
+padding-bottom: 10px;
+padding-top: 10px;
+padding-left: 25px;
+padding-right: 25px;
+top: 170%;
+right: 167%;
+position: absolute;
+
+}
+

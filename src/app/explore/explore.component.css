@@ -1,0 +1,133 @@
+.div1 {
+   
+    background: white;
+       width:1902px;
+       height:1600px;
+        right:0%;
+       position: absolute;
+
+       
+    }
+.headertext{
+    left: 45%;
+    top: 3%;
+    position: absolute;
+    font-size: 25px;
+
+}
+.subheadertext{
+    left: 35%;
+    top: 6.5%;
+    position: absolute;
+    width: 680px;
+    
+
+}
+
+.header2text{
+    left: 43%;
+    top: 16%;
+    position: absolute;
+    width: 680px;
+    font-size: 25px;
+
+}
+
+.sub1header2text{
+    left: 38%;
+    top: 25%;
+    position: absolute;
+    width: 680px;
+
+}
+
+.sub2header2text{
+    left: 45%;
+    top: 25%;
+    position: absolute;
+    width: 680px;
+
+}
+
+.sub3header2text{
+    left: 52%;
+    top: 25%;
+    position: absolute;
+    width: 680px;
+
+}
+
+.sub4header2text{
+    left: 59%;
+    top: 25%;
+    position: absolute;
+    width: 680px;
+
+}
+
+.image1{
+
+    position: absolute;
+    left: 25%;
+    top: 33%;
+}
+
+.image1text{
+    top: 108%;
+    position: absolute;
+    font-size: 20px;
+
+}
+
+.image1subtext{
+    top: 135%;
+    position: absolute;
+    width: 290px;
+    
+
+}
+
+.image2{
+
+    position: absolute;
+    left: 45%;
+    top: 33%;
+}
+
+.image2text{
+    top: 108%;
+    position: absolute;
+    font-size: 20px;
+
+}
+
+.image2subtext{
+    top: 135%;
+    position: absolute;
+    width: 290px;
+    
+
+}
+
+
+.image3{
+
+    position: absolute;
+    left: 35%;
+    top: 0%;
+}
+
+.image3text{
+    top: 108%;
+    position: absolute;
+    font-size: 20px;
+
+}
+
+.image3subtext{
+    top: 135%;
+    position: absolute;
+    width: 290px;
+    
+
+}

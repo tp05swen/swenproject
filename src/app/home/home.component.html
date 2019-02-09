@@ -1,0 +1,45 @@
+
+    <br><br>
+    <div class="div1">
+            <p class="checkintext"> Check In:</p> 
+            <p class="checkouttext"> Check Out:</p> 
+            <p class="select1text"> Rooms:</p>
+            <p class="select2text"> Adults:</p>
+            <p class="select3text"> Child:</p>
+        <div class="div2">
+          
+            
+                
+                <form [formGroup]="bookingForm" novalidate (ngSubmit)="onSubmit(bookingForm)">
+                    <mat-form-field class="example-full-width">
+                        <input formControlName="fromdate" id="fromdate" matInput [matDatepicker]="picker1" placeholder="" >
+                        <mat-datepicker-toggle matSuffix [for]="picker1"></mat-datepicker-toggle>
+                        <mat-datepicker #picker1></mat-datepicker>
+                    </mat-form-field>
+            </form>
+                    <div class="div3">     
+                <form [formGroup]="bookingForm2" novalidate (ngSubmit)="onSubmit(bookingForm)">
+                    <mat-form-field class="example-full-width2">
+                        <input formControlName="enddate" id="enddate" matInput [matDatepicker]="picker2" placeholder="" >
+                        <mat-datepicker-toggle matSuffix [for]="picker2"></mat-datepicker-toggle>
+                        <mat-datepicker #picker2></mat-datepicker>
+                    </mat-form-field>
+
+                    <div class="select1">
+                            <input type="text" style ="width: 80px; height: 50px;"> 
+                    </div>
+
+                    <div class="select2">
+                            <input type="text" style ="width: 80px; height: 50px;"> 
+                    </div>
+
+                    <div class="select3">
+                            <input type="text" style ="width: 80px; height: 50px;"> 
+                    </div>
+
+                    <button >Search</button>
+            </form>
+          </div>
+        </div>   
+    </div>
+  

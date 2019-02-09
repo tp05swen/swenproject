@@ -1,0 +1,29 @@
+.container {
+    background: rgba(0, 0, 0,0.7);
+    height:300px;
+    margin: auto;
+    padding: 15px;
+    
+}
+
+
+
+.container2  {
+    height: 270px;
+    z-index: 15;
+    margin: auto;
+    background: white;
+    
+    text-align: center;
+
+}
+
+button{
+
+    font-weight: bold;
+    border-color: black;
+    background: none;
+    color:black;
+    font-family: Raleway;
+    padding: 10px
+    }

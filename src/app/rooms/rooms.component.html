@@ -1,0 +1,97 @@
+<div class="div1">
+    <P class="headertext">
+    ROOMS
+    </P>
+    <P class="subheadertext">
+        LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM 
+        LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM 
+        LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM
+        LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM
+        </P>
+        <hr class="hr1">
+
+      <p class="header2text"> Our Rooms:</p>         
+
+      <hr class="hr2">
+
+
+      <div class="div2">
+          
+            <b class="checkintext">Check In:</b>
+             <b class="checkouttext"> Check Out:</b> 
+             <b class="roomtext">Rooms:</b> 
+             <b class="adulttext">Adults:</b> 
+             <b class="childtext">Child:</b>
+            <tr>   
+              <th>
+          <form [formGroup]="bookingForm" novalidate (ngSubmit)="onSubmit(bookingForm)">
+              <mat-form-field class="example-full-width">
+                  <input formControlName="fromdate" id="fromdate" matInput [matDatepicker]="picker1" placeholder="" >
+                  <mat-datepicker-toggle matSuffix [for]="picker1"></mat-datepicker-toggle>
+                  <mat-datepicker #picker1></mat-datepicker>
+              </mat-form-field>
+      </form>
+
+</th>
+ 
+
+    <th style="border-left: none">
+       
+        <form [formGroup]="bookingForm2" novalidate (ngSubmit)="onSubmit(bookingForm)">
+            <mat-form-field class="example-full-width2">
+                <input formControlName="enddate" id="enddate" matInput [matDatepicker]="picker2" placeholder="" >
+                <mat-datepicker-toggle matSuffix [for]="picker2"></mat-datepicker-toggle>
+                <mat-datepicker #picker2></mat-datepicker>
+            </mat-form-field>
+
+
+      </form>
+
+    </th>
+    
+
+    <th style="border-left: none">
+       
+        <input type="text" style ="width: 130px; height: 67px;" > 
+</th>
+<th style="border-left: none">
+ 
+    <input type="text" style ="width: 130px; height: 67px;" > 
+
+         </th>
+
+<th style="border-left: none">
+ 
+    <input type="text" style ="width: 130px; height: 67px;" > 
+
+                  </th>
+                  <th>
+                    <button class="button1">Search</button>
+                  </th>
+                  </tr>
+                </div>  
+
+                <hr class="hr3">
+
+                <img class="image1" style="width: 16%;"src="https://www.westinstore.com/images/products/xlrg/westin-hotel-pillow-sham-HB-116_xlrg.jpg">
+
+                <P class="header3text">
+                    Junior Suite
+                    </P>
+                    <P class="subheader3text">
+                        Our Junior Suite offer breathtaking views of the city skyline.
+                        </P>
+                        <ul>
+                        <li>Size: 260 sq ft</li>
+                        <li>Beds: 2 Double(s)</li>
+                      </ul>
+                      <hr class="hr4">
+
+                      <b class="roomavailability">Room Availability: 250</b>
+
+                      <p class="fromtext">From</p>
+
+                      <b class="amounttext">$250</b>
+
+                      <button class="moreinfo">More Info</button>
+    </div>

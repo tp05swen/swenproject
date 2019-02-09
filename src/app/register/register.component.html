@@ -1,0 +1,16 @@
+<br>
+<div class="container">
+
+<div class="container2">
+<br>
+
+<form [formGroup]="myForm" novalidate (ngSubmit)="onSubmit(myForm)">
+  <p><input formControlName="name" id="name" placeholder="Your name"/></p>
+  <p><input formControlName="email" type="email" id="email" placeholder="Your email" /></p>
+  <p><input formControlName="password" id="password" placeholder="Your
+  password" /></p>
+  <p><input formControlName="role" id="role" placeholder="user/admin" /></p>
+  <p><button type="submit" >Register</button></p>
+  </form>
+</div>
+</div>

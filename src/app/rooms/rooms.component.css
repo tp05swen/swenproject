@@ -1,0 +1,201 @@
+.div1 {
+   
+    background: white;
+       width:1902px;
+       height:1600px;
+        right:0%;
+       position: absolute;
+
+       
+    }
+.headertext{
+    left: 48%;
+    top: 3%;
+    position: absolute;
+    font-size: 25px;
+
+}
+.subheadertext{
+    left: 35%;
+    top: 6.5%;
+    position: absolute;
+    width: 680px;
+    
+
+}
+.header2text{
+    left: 12%;
+    top: 17%;
+    position: absolute;
+    font-size: 25px;
+
+}
+
+.hr1 {
+    border-top: solid 2px lightgrey;  
+    width: 100%;
+    top: 15%;
+    position: absolute;
+}
+
+.hr2 {
+    border-top: solid 2px dimgrey;  
+    width: 75%;
+    left:12%;
+    top: 19%;
+    position: absolute;
+}
+
+.div2 {
+    position: absolute;
+    width: 215px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 100px;
+    left: 11.5%;
+    top: 16.5%;
+    z-index: 100000000;
+    
+}
+th {
+    border: solid 1px dimgrey;
+}
+
+.example-full-width{
+ 
+    padding-left: 5px;
+    
+   
+    
+    
+}
+.example-full-width2{
+
+    padding-left: 5px;
+    
+}
+
+.button1{
+    border:none;
+    font-weight: bold;
+    background: yellow;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    height: 67px;
+    width: 100px;
+}
+
+.checkintext{
+    position: absolute;
+    left: 2%;
+    top: -100%;
+}
+.checkouttext{
+    position: absolute;
+    left: 100%;
+    top: -100%;
+    width: 100px;
+}
+
+.roomtext{
+    position: absolute;
+    left: 200%;
+    top: -100%;
+}
+
+.adulttext{
+    position: absolute;
+    left: 260%;
+    top: -100%;
+}
+
+.childtext{
+    position: absolute;
+    left: 320%;
+    top: -100%;
+}
+
+.hr3
+{
+    border-top: solid 2px lightgrey;  
+    width: 75%;
+    left:12%;
+    top: 28%;
+    position: absolute;     
+}
+
+.image1{
+    position: absolute;
+    left: 12%;
+    top: 33%;
+}
+
+.header3text{
+    left: 30%;
+    top: 33%;
+    position: absolute;
+    font-size: 25px;
+
+}
+.subheader3text{
+    left: 30%;
+    top: 36%;
+    position: absolute;
+    width: 680px;
+    
+
+}
+
+ul{
+    position: absolute;
+    left: 29%;
+    top: 39%;
+}
+
+.hr4{
+    border-top: solid 2px lightgrey;  
+    width: 30%;
+    left: 30%;
+    top: 42.5%;
+    position: absolute;   
+}
+
+.roomavailability
+{
+    position: absolute;
+    left: 61.5%;
+    top: 32%;
+    font-size: 20px;
+}
+
+.fromtext{
+    position: absolute;
+    left: 67%;
+    top: 36%;
+
+}
+
+.amounttext{
+    position: absolute;
+    left: 65.5%;
+    top: 37.5%;
+    font-size: 35px;
+}
+
+.moreinfo{
+    position: absolute;
+    left: 63.5%;
+    top: 42%;
+
+    border-color: black;    
+    border-width: 1px;
+    background: yellow;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 35px;
+    padding-right: 35px;
+    width: 150px;
+    height: 35px;
+}
